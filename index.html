@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ride Together</title>
+    <meta
+      name="description"
+      content="Ride Together - smart mobility platform for shared rides in Lusaka and other growing cities."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="brand-wrap">
+          <div class="brand-mark">RT</div>
+          <div>
+            <p class="eyebrow">Smart mobility</p>
+            <h1>Ride Together</h1>
+          </div>
+        </div>
+
+        <nav class="main-nav">
+          <a href="#how-it-works">How it works</a>
+          <a href="#matches">Matches</a>
+          <a href="#safety">Safety</a>
+          <a href="#impact">Impact</a>
+        </nav>
+
+        <div class="header-actions">
+          <button class="btn btn-ghost">Log in</button>
+          <button class="btn btn-primary">Get Started</button>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="hero-copy">
+            <div class="badge-row">
+              <span class="pill light">Lusaka</span>
+              <span class="pill success">Verified drivers</span>
+            </div>
+
+            <h2>Going your way? Share the ride.</h2>
+            <p>
+              Turn empty seats into transport capacity. Match drivers already
+              travelling the same route with commuters heading in the same
+              direction.
+            </p>
+
+            <div class="cta-row">
+              <button class="btn btn-primary btn-large">Find a ride</button>
+              <button class="btn btn-secondary btn-large">Offer a lift</button>
+            </div>
+
+            <ul class="metrics-list">
+              <li>
+                <strong>1,245</strong>
+                <span>Shared trips today</span>
+              </li>
+              <li>
+                <strong>3,780</strong>
+                <span>Passengers moved</span>
+              </li>
+              <li>
+                <strong>1,050</strong>
+                <span>Fewer cars on road</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="phone-mockup">
+            <div class="phone-header">
+              <span class="signal-dot"></span>
+              <span>09:41</span>
+              <span>5G</span>
+            </div>
+
+            <div class="app-card search-card">
+              <div class="card-topline">
+                <span class="status-pill">Passenger mode</span>
+                <span class="rating">★ 4.8</span>
+              </div>
+
+              <div class="route-panel">
+                <div class="route-stop">
+                  <span class="stop-dot start"></span>
+                  <div>
+                    <label>From</label>
+                    <strong>Chilenje</strong>
+                  </div>
+                </div>
+                <div class="route-line"></div>
+                <div class="route-stop">
+                  <span class="stop-dot end"></span>
+                  <div>
+                    <label>To</label>
+                    <strong>CBD</strong>
+                  </div>
+                </div>
+              </div>
+
+              <div class="search-meta">
+                <div>
+                  <label>When</label>
+                  <strong>Today, 07:00</strong>
+                </div>
+                <div>
+                  <label>Seats</label>
+                  <strong>2 needed</strong>
+                </div>
+              </div>
+
+              <button class="btn btn-primary btn-full">Find a lift</button>
+            </div>
+
+            <div class="mini-card">
+              <div class="driver-avatar">JM</div>
+              <div>
+                <strong>John M.</strong>
+                <p>✓ Verified Driver</p>
+              </div>
+              <span class="match-pill">95% Match</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="how-it-works">
+          <div class="section-heading">
+            <p class="eyebrow subtle">How it works</p>
+            <h3>Designed for everyday commuting</h3>
+          </div>
+
+          <div class="steps-grid">
+            <article class="info-card accent">
+              <div class="icon">1</div>
+              <h4>Register</h4>
+              <p>Create an account as a driver, passenger or both.</p>
+            </article>
+            <article class="info-card">
+              <div class="icon">2</div>
+              <h4>Plan your trip</h4>
+              <p>Drivers share route, time, seats and contribution.</p>
+            </article>
+            <article class="info-card">
+              <div class="icon">3</div>
+              <h4>Match automatically</h4>
+              <p>Routes and time overlap are matched by score.</p>
+            </article>
+            <article class="info-card">
+              <div class="icon">4</div>
+              <h4>Travel safely</h4>
+              <p>Verified profiles, OTP checks and trip sharing.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="matches">
+          <div class="section-heading split">
+            <div>
+              <p class="eyebrow subtle">Available lifts</p>
+              <h3>Trips that match your route</h3>
+            </div>
+            <div class="toggle-row">
+              <button class="chip active">Today</button>
+              <button class="chip">Tomorrow</button>
+              <button class="chip">Weekend</button>
+            </div>
+          </div>
+
+          <div class="results-grid">
+            <article class="trip-card feature">
+              <div class="card-header">
+                <div class="profile-badge">JM</div>
+                <div>
+                  <h4>John M.</h4>
+                  <p>✓ Verified Driver · ★ 4.8</p>
+                </div>
+                <span class="match-badge">95% match</span>
+              </div>
+
+              <div class="trip-route">
+                <span>Chilenje</span>
+                <span class="arrow">→</span>
+                <span>Kabwata</span>
+                <span class="arrow">→</span>
+                <span>CBD</span>
+              </div>
+
+              <div class="trip-meta">
+                <span>07:00 departure</span>
+                <span>2 seats available</span>
+                <span>K10 contribution</span>
+              </div>
+
+              <div class="car-info">
+                <span>White Toyota Corolla</span>
+                <span>ABC 1234</span>
+              </div>
+
+              <button class="btn btn-primary btn-full">View trip</button>
+            </article>
+
+            <article class="trip-card">
+              <div class="card-header">
+                <div class="profile-badge alt">MK</div>
+                <div>
+                  <h4>Mary K.</h4>
+                  <p>✓ Verified Driver · ★ 4.7</p>
+                </div>
+                <span class="match-badge">91% match</span>
+              </div>
+
+              <div class="trip-route">
+                <span>Libala</span>
+                <span class="arrow">→</span>
+                <span>Arcades</span>
+                <span class="arrow">→</span>
+                <span>CBD</span>
+              </div>
+
+              <div class="trip-meta">
+                <span>06:50 departure</span>
+                <span>3 seats available</span>
+                <span>K10 contribution</span>
+              </div>
+
+              <div class="car-info">
+                <span>Silver Toyota Vitz</span>
+                <span>ABD 4821</span>
+              </div>
+
+              <button class="btn btn-secondary btn-full">View trip</button>
+            </article>
+          </div>
+        </section>
+
+        <section class="section split-layout" id="safety">
+          <div class="panel safety-panel">
+            <p class="eyebrow subtle">Safety first</p>
+            <h3>Trust is built into the experience</h3>
+            <ul class="check-list">
+              <li>Phone number and OTP verification</li>
+              <li>NRC and driver licence checks</li>
+              <li>Vehicle and insurance validation</li>
+              <li>Trip sharing with trusted contacts</li>
+              <li>Emergency SOS support</li>
+              <li>Ratings and blocked accounts</li>
+            </ul>
+          </div>
+
+          <div class="panel trip-detail-panel">
+            <div class="panel-head">
+              <div>
+                <p class="eyebrow subtle">Trip detail</p>
+                <h4>John M. → CBD</h4>
+              </div>
+              <span class="match-badge">95%</span>
+            </div>
+
+            <div class="detail-list">
+              <div>
+                <label>Route</label>
+                <strong>Chilenje → Kabwata → CBD</strong>
+              </div>
+              <div>
+                <label>Departure</label>
+                <strong>07:00 today</strong>
+              </div>
+              <div>
+                <label>Pickup</label>
+                <strong>Kabwata Market</strong>
+              </div>
+              <div>
+                <label>Contribution</label>
+                <strong>K10</strong>
+              </div>
+            </div>
+
+            <button class="btn btn-primary btn-full">Request seat</button>
+          </div>
+        </section>
+
+        <section class="section dashboard-section" id="impact">
+          <div class="section-heading">
+            <p class="eyebrow subtle">Impact dashboard</p>
+            <h3>Mobility data that matters</h3>
+          </div>
+
+          <div class="dashboard-grid">
+            <article class="metric-card">
+              <span>Shared trips</span>
+              <strong>18,431</strong>
+            </article>
+            <article class="metric-card">
+              <span>Cars avoided</span>
+              <strong>11,274</strong>
+            </article>
+            <article class="metric-card">
+              <span>Km shared</span>
+              <strong>87,231</strong>
+            </article>
+            <article class="metric-card accent">
+              <span>CO₂ reduced</span>
+              <strong>5.8t</strong>
+            </article>
+          </div>
+        </section>
+
+        <section class="section lower-panel-section">
+          <div class="panel driver-panel">
+            <p class="eyebrow subtle">Driver panel</p>
+            <h3>Offer a lift in under a minute</h3>
+            <form class="driver-form">
+              <div class="form-row two-col">
+                <div>
+                  <label>From</label>
+                  <input type="text" value="Chilenje" />
+                </div>
+                <div>
+                  <label>To</label>
+                  <input type="text" value="CBD" />
+                </div>
+              </div>
+
+              <div class="form-row two-col">
+                <div>
+                  <label>Departure time</label>
+                  <input type="text" value="07:00" />
+                </div>
+                <div>
+                  <label>Available seats</label>
+                  <input type="text" value="3" />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <label>Trip contribution</label>
+                <input type="text" value="K10" />
+              </div>
+
+              <button class="btn btn-primary">Create trip</button>
+            </form>
+          </div>
+
+          <div class="panel admin-panel">
+            <p class="eyebrow subtle">Admin review</p>
+            <h3>Driver verification</h3>
+
+            <div class="verification-card">
+              <div class="verification-head">
+                <div class="profile-badge large">JM</div>
+                <div>
+                  <h4>John M.</h4>
+                  <p>+260 977 123 456</p>
+                </div>
+              </div>
+
+              <ul>
+                <li>✓ NRC verified</li>
+                <li>✓ Licence approved</li>
+                <li>✓ Vehicle registered</li>
+                <li>✓ Insurance reviewed</li>
+              </ul>
+
+              <div class="verify-actions">
+                <button class="btn btn-secondary">Request info</button>
+                <button class="btn btn-primary">Approve</button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
